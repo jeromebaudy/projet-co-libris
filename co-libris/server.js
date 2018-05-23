@@ -73,6 +73,9 @@ app.get('/docu_echange', (request, response) => {
 app.get('/docu_addSerie', (request, response) => {
     response.render('pages/docu_addSerie', { test: 'allez on peut continuer' })
 })
+app.get('/docu_gestionSerie', (request, response) => {
+    response.render('pages/docu_gestionSerie', { test: 'allez on peut continuer' })
+})
 
 //POST
 

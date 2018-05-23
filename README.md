@@ -1,7 +1,7 @@
 
 ## Dévelopement
 
-### Dépendance
+### Dépendances
 
 - nodejs
 - npm
@@ -14,11 +14,13 @@
 ```
 $ cd co-libris
 $ npm install
-$ mongod --dbpath "/path/to/bdd_mongodb_colibris"
-$ npm start
+$ mongod --dbpath "../bdd_mongodb_colibris"
 ```
-
-Puis aller dans le navigateur à l'adresse `http://localhost:8080`
+Ouvrer un nouveau terminal, pour  lancé le serveur avec :
+```
+$ npm run start
+```
+Puis aller dans le navigateur à l'adresse `http://localhost:8080/docu_recherche`
 
 #### Windows
 
@@ -26,12 +28,9 @@ Puis aller dans le navigateur à l'adresse `http://localhost:8080`
 $ cd co-libris
 $ npm install
 ```
-
-Lancé le `.bat` et coriger les liens vers l'executable `mongod.exe` et le chemin de la base de donnée 
-
+Lancé le `.bat` et coriger les liens vers l'executable `mongod.exe` et le chemin de la base de donnée.
+Ouvrer un nouveau terminal, pour  lancé le serveur avec :
 ```
-$ npm start
+$ npm run start
 ```
-
-Puis aller dans le navigateur à l'adresse `http://localhost:8080`
-
+Puis aller dans le navigateur à l'adresse `http://localhost:8080docu_recherche`
